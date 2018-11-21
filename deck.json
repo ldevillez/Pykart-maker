@@ -1,0 +1,38 @@
+
+
+{
+  "name": "Devillez_de_test",
+  "nbCarte": 10,
+  "imgCarte": "img/card.png",
+  "version": 19,
+  "fontPath": "font",
+  "zone": [
+    {
+      "id": "1",
+      "type": "img",
+      "xtop": 23,
+      "ytop": 26,
+      "xbot": 228,
+      "ybot": 281
+    },
+    {
+      "id": "2",
+      "type": "text",
+      "font": "font/november.ttf",
+      "size": 25,
+      "R": 200,
+      "G": 200,
+      "B": 200,
+      "xtop": 24,
+      "ytop": 218
+    }
+  ],
+  "cartes": [
+    {
+      "nom": "du_cul",
+      "1": "img/imgCard.png",
+      "2": "ma bite sur\npetit con",
+      "3": null
+    }
+  ]
+}
