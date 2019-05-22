@@ -12,7 +12,7 @@ if len(sys.argv) >= 2:
 
 try:
   # On ouvre le fichier
-  with codecs.open(name) as json_file:
+  with codecs.open(name,'r','utf-8') as json_file:
     # On load le json
     data = json.load(json_file)
 
@@ -45,10 +45,9 @@ try:
 
   #On Update le numéro de version du deck 
   data['version'] = int(data['version']) + 1
-  with open(name, 'w') as outfile:
+  with codecs.open(name,'w','utf-8') as outfile:
     json.dump(data, outfile)
 
-
-# catch error
+# Gestion d'erreurs
 except IOError:
     print('Le fichier \"' + name + '\" n\'a pas pu être ouvert')
