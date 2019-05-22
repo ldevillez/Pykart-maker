@@ -32,6 +32,7 @@ try:
         # Zone de type texte
         if zones["type"] == "text":
           font = ImageFont.truetype(zones["font"], zones["size"])
+          
           draw.text((zones["xtop"], zones["ytop"]+ 1* zones["size"]),card[zones["id"]],(zones["R"],zones["G"],zones["B"]),font=font)
 
         # Zone de type image
@@ -43,10 +44,10 @@ try:
     #On sauvegarde la carte
     img.save('decks/' + data['name'] + 'V' + str(data['version']) + '/' + card['nom'] + '.png')
 
-  #On Update le numéro de version du deck 
   data['version'] = int(data['version']) + 1
-  with codecs.open(name,'w','utf-8') as outfile:
-    json.dump(data, outfile)
+
+  with codecs.open(name,'w') as outfile:
+    json.dump(data, outfile,ensure_ascii=False)
 
 # Gestion d'erreurs
 except IOError:
