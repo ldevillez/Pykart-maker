@@ -40,6 +40,15 @@ Une carte est definie par:
 * nom: nom de la carte
 * Pour chaque id des zones la valeur du text/le path vers l'image
 
+## Build a deck
+* `python main.py` va utiliser deck.json pour construire le deck
+* `python main.py file.json' va utiliser file.json pour construire le deck
+
 ## Dépendances
 Il y a le pipfile mais aussi:
 * PIL: sudo apt install python-pil
+
+## Version
+
+* 1.1: restructuration + ajout de nom de deck pour build
+* 1.0: Création de decks
