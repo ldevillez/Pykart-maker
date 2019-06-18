@@ -32,7 +32,6 @@ try:
         # Zone de type texte
         if zones["type"] == "text":
           font = ImageFont.truetype(zones["font"], zones["size"])
-          
           draw.text((zones["xtop"], zones["ytop"]+ 1* zones["size"]),card[zones["id"]],(zones["R"],zones["G"],zones["B"]),font=font)
 
         # Zone de type image

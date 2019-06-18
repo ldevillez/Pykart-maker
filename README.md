@@ -25,11 +25,7 @@ Une zone est définie par
 * B: composante bleu du Texte
 * xtop: la composante x à partir d'écrire
 * ytop: la composante y à partir d'écrire
-* border_size: la taille de la bordure (opt)
-* border_R: composante rouge de la bordure (opt)
-* border_G: composante verte de la bordure (opt)
-* border_B: composante bleu de la bordure (opt)
-
+  
 #### Zones image
 Une Zone est définie par
 * id
