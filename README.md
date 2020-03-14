@@ -9,6 +9,11 @@ Un deck est un json avec:
 * imgCarte: le path vers l'image de la cartes
 * zone: une liste des zones sur la carte,
 * Cartes: une liste des cartes et des différents attributs
+* pdf (optionnel): Si on veut créer un pdf avec les différentes cartes
+* * hmargin: marge horizontale
+* * vmargin: marge vecticale
+* * nb_h: nombre de carte sur une ligne
+* * nb_v: nombre de carte sur une colonne
 
 ## Utilisation
 Il faut tout d'abord definir les differentes zones
@@ -50,5 +55,6 @@ Il y a le pipfile mais aussi:
 
 ## Version
 
+* 1.2: Création d'un fichier pdf
 * 1.1: restructuration + ajout de nom de deck pour build
-* 1.0: Création de decks«
+* 1.0: Création de decks
