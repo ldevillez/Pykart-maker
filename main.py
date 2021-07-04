@@ -10,7 +10,7 @@ WIDTH = 595
 HEIGHT = 842
 
 # Base name
-name = "deck_phi.json"
+name = "deck.json"
 # if a name is given
 if len(sys.argv) >= 2:
   name = sys.argv[1]

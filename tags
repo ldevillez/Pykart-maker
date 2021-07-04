@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HEIGHT	main.py	/^HEIGHT = 842$/;"	v
+WIDTH	main.py	/^WIDTH = 595$/;"	v
+coef_x	main.py	/^    coef_x = WIDTH \/(x_img*data['pdf']['nb_h'] + (data['pdf']['nb_h']-1)*data['pdf']['hmargin'])$/;"	v
+coef_y	main.py	/^    coef_y = HEIGHT \/(y_img*data['pdf']['nb_v']+ (data['pdf']['nb_v']-1)*data['pdf']['vmargin'])$/;"	v
+create_pdf	main.py	/^  create_pdf = 'pdf' in data$/;"	v
+data	main.py	/^    data = json.load(json_file)$/;"	v
+doc	main.py	/^    doc = fitz.open('decks\/' + data['name'] + 'V' + str(data['version']) + '\/' + 'deck.pdf')$/;"	v
+draw	main.py	/^    draw = ImageDraw.Draw(img)$/;"	v
+font	main.py	/^          font = ImageFont.truetype(zones["font"], zones["size"])$/;"	v
+im	main.py	/^          im= Image.open(card[zones["id"]])$/;"	v
+img	main.py	/^    img = Image.open(data['imgCarte'])$/;"	v
+name	main.py	/^  name = sys.argv[1]$/;"	v
+name	main.py	/^name = "deck.json"$/;"	v
+nb_x	main.py	/^        nb_x = 0$/;"	v
+nb_x	main.py	/^    nb_x = 0$/;"	v
+nb_y	main.py	/^        nb_y = 0$/;"	v
+nb_y	main.py	/^    nb_y = 0$/;"	v
+num	main.py	/^        num = 0$/;"	v
+num	main.py	/^    num = 0$/;"	v
+num_page	main.py	/^    num_page = data['pdf']['nb_h'] * data['pdf']['nb_v']$/;"	v
+output_pdf	main.py	/^    output_pdf = PyPDF2.PdfFileWriter()$/;"	v
+page	main.py	/^        page = doc.newPage(pno=-1,width=WIDTH,height=HEIGHT)$/;"	v
+region	main.py	/^          region = im.crop((0,0,zones["ybot"] - zones["ytop"],zones["xbot"] - zones["xtop"]))$/;"	v
